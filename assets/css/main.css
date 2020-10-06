@@ -138,6 +138,12 @@ input, select, textarea {
 				color: #666;
 			}
 
+			.welcome {
+				color: white !important;
+				text-shadow: 2px 2px 2px black;
+				font-weight: 700;
+			}
+
 	h3 {
 		font-size: 1.5em;
 	}
@@ -328,7 +334,8 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			width: 75%;
+			margin: 0 auto;
 		}
 
 		.row > .off-4 {
@@ -1754,6 +1761,10 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.image .project {
+			width: 100%;
+		}
+
 		.image.avatar48 {
 			width: 48px;
 			height: 48px;
@@ -1774,7 +1785,12 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
+		}.image img {
+			width: 50%;
+			margin: 0 auto;
 		}
+
+
 
 		.image.left {
 			float: left;
@@ -2248,7 +2264,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/fall-background.jpg");
 			}
 
 			#main > section.two {
